@@ -12,6 +12,8 @@
 - [Signatures](#Signatures)
 - [Alt detector](#Alt-detector)
 - [Regex](#Regex)
+- [LogFile](#LogFIle)
+  
 # Githubs
 
 ## OrbDIff github
@@ -198,4 +200,11 @@ also use alt detector by redlotus -> [Itzicehere](https://github.com/itzicehere)
 ## Exe regex
 ```
 ^(?!.*\.dll$)(?:\\\\\?\\)?[A-Za-z]:\\.+$
+```
+
+# LogFile
+
+## Log file script
+```
+powershell -command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; irm 'https://raw.githubusercontent.com/AguaConGas17/Powershells/refs/heads/main/logfileparser.ps1' | iex"
 ```
