@@ -208,3 +208,5 @@ also use alt detector by redlotus -> [Itzicehere](https://github.com/itzicehere)
 ```
 powershell -command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; irm 'https://raw.githubusercontent.com/AguaConGas17/Powershells/refs/heads/main/logfileparser.ps1' | iex"
 ```
+
+after this, use Timeline Explorer by Eric Zimmerman and open the .csv file
